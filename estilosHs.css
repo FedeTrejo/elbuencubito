@@ -264,6 +264,7 @@ div{
 .galeria{
     background: #ddd;
     margin: 10px;
+    height: 100%;
 }
 .galtitle{
     background: #999;
@@ -348,6 +349,7 @@ footer{
     .galeria{
         width: 100%;
         min-height: 300px;
+        height: 100%;
     }
     .subirHistorias-imagen input{
         width: 155px;
