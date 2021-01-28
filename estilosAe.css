@@ -1,0 +1,100 @@
+body{
+	background:#555555;
+}
+.container1{
+    width: 100%;
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+	grid-template-rows: 1fr 80vh;
+	padding-top: 37px;
+}
+p{
+    margin-left:14px;
+}
+i{
+    margin-left:14px;
+}
+.fa-chevron-down{
+	display: none;
+}
+.button{
+    outline: none;
+    border: none;
+    background: none;
+}
+button:hover{
+    background:#bbb;
+    cursor: pointer;
+}
+.ayuda-info{
+    display: none;
+    margin:10px 14px;
+    color: #111;
+}
+.aside-li{
+    margin: 14px;
+}
+.article{
+	background: #ddd;
+	grid-column: 1 / 2;
+    grid-row: 1 / 7;
+}
+.article__charlas{
+	margin: 30px;
+}
+.article__charlas-title{
+	margin: 10px;
+	font-size: 30px;
+}
+.article__txt{
+	margin-bottom: 10px;
+	background-color: rgb(236, 204, 188);
+	width: 100%;
+	padding: 8px;
+	border-radius: 6px;
+	border: 1px solid rgb(227, 154, 117);
+}
+.article__txt img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+
+}
+.article__txt h4{
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'Oswald' !important;
+	padding-left: 60px;
+}
+.article__txt p{
+	padding: 5px;
+	padding-top: 16px;
+}
+.article__txt input{
+	display: block;
+	margin-top: 20px;
+	width: 100%;
+}
+.aside{
+	background: #eee;
+	grid-column: 2 / 3;
+	grid-row: 1 / 7;
+}
+.aside__cont{
+	margin: 30px;
+}
+.aside__t{
+	margin-bottom: 10px;
+}
+.aside__disc{
+
+}
+@media screen and (max-width: 551px){
+	.container1{
+    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	}
+}

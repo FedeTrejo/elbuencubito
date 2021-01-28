@@ -1,0 +1,93 @@
+.login__fondo{
+    background: url("fondo2.jog.jpg");
+    width: 100%;
+	height: 86vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(109, 191, 226);
+    background-size: cover !important;
+}
+nav{
+    position: relative !important;
+}
+.login__div{
+    height: 74vh;
+    width: 280px;
+    margin: auto;
+    background: rgba(250, 202, 177, 0.791);
+    border: 1px solid rgb(227, 154, 117);
+    padding:30px;
+    border-radius: 10px;
+}
+.div__0{
+    width: 30%;
+    height: 6%;
+}
+form{
+    margin-top: 7px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+.bb__title{
+    position: relative;
+    z-index: 0;
+    margin: 10px;
+    height: 10px;
+    text-align: center;
+    grid-row: 1 / 2;
+    padding-left: 0;
+}
+.bb__input{
+    height: 30px;
+}
+.name{
+    grid-row: 2 / 3 ;
+}
+.contra{
+    grid-row: 3 /4;
+}
+.contra1{
+    grid-row: 4 /5;
+}
+.bb__mostrarc{
+    grid-row: 4 / 5;
+    margin: 0px;
+    margin-left: 10px;
+    height: 20px;
+}
+.bb__mostrarc-text{
+    margin-left: 6px;
+    display: inline;
+    font-size: 12px;
+}
+.bb__button{
+    height: 23px;
+    width: 80px;
+    justify-self: end;
+    grid-row: 6 /7;
+}
+.bb__button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:360px){
+    .login__div{
+        padding: 20px;
+    }
+}
+@media screen and (min-width:360px) and (max-width:712px){
+    form{
+        justify-content: center;
+    }
+}
+@media screen and (max-height:450px){
+    .bb__title{
+        height: initial;
+    }
+    form{
+        margin-top: 0px;
+    }
+    .login__div{
+        padding: 14px;
+    }
+}

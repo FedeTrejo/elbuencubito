@@ -1,0 +1,109 @@
+.fotop{
+    width: 80px;
+    height: 80px;
+    float: none;
+    margin-left: 80px !important;
+    margin-right: 80px !important;
+}
+.editaricon{
+    position: absolute;
+    width: 240px;
+    margin-top: 5em;
+    color: lightgray;
+}
+@media screen and (max-height:350px){
+    .subirb{
+        margin-top: 123px;
+    }
+
+}
+@media screen and (min-height:350px) and (max-height:433px){
+    .subirb{
+        margin-top: 128px;
+    }
+
+}
+@media screen and (min-height:433px) and (max-height:466px){
+    .subirb{
+        margin-top: 133px;
+    }
+
+}
+@media screen and (min-height:466px) and (max-height:500px){
+    .subirb{
+        margin-top: 139px;
+    }
+
+}
+@media screen and (min-height:500px) and (max-height:533px){
+    .subirb{
+        margin-top: 150px;
+    }
+
+}
+@media screen and (min-height:533px) and (max-height:566px){
+    .subirb{
+        margin-top: 152px;
+    }
+
+}
+@media screen and (min-height:566px) and (max-height:600px){
+    .subirb{
+        margin-top: 160px;
+    }
+
+}
+@media screen and (min-height:600px) and (max-height:630px){
+    .subirb{
+        margin-top: 165px;
+    }
+
+}
+@media screen and (min-height:630px) and (max-height:660px){
+    .subirb{
+        margin-top: 170px;
+    }
+
+}
+.infop{
+    font-size: 14px;
+    margin-left: 0; 
+    width: 240px;
+    text-align: center;
+}
+.infot{
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+.bb__input1{
+    width: 170px;
+    justify-self: center;
+}
+.lgf{
+  background-size: cover;
+  background-position: center center !important;
+}
+.lgd{
+    height: 74vh;
+    min-height: 300px;
+}
+.form2{
+    grid-template-rows: initial;
+    text-align: center;
+}
+.botonp1{
+    font-size: 12px !important;
+    padding: 4px;
+    width: 90px;
+}
+.botonp2{
+    font-size: 12px !important;
+    padding: 4px;
+    width: 130px;    
+}
+.botonp1:hover{
+cursor: pointer;
+}
+.botonp2:hover{
+    cursor: pointer;
+}

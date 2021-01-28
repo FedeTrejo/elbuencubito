@@ -1,0 +1,403 @@
+.containerM{
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+}
+*{
+    scroll-behavior: smooth;
+}
+.container__1{
+    background: rgba(255, 147, 93, 0.764);
+    box-shadow: 1px 2px 10px 0 #000;
+    z-index: 100;
+    user-select: none;
+}
+.container__2{
+    background-image: url("fondo2.jpg");
+}
+footer{
+    position: relative;
+    z-index: 200;
+}
+.subtituloM{
+    margin-top: 50px  !important;
+    padding-left: 23px !important;
+}
+.miembros{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+.mb{
+    flex-basis: 30px;
+    padding-left: 50px;
+}
+.miembros__img{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.mb:hover{
+    cursor: pointer;
+}
+h5{
+    display: inline;
+    margin-left: 11px;
+    font-size: 15px;
+}
+.miembros__img{
+    transition: .4s all;
+}
+.mb{
+    transition: .4s all;
+}
+
+.djpachi:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.djpachi:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.djpachi:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.europost:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.europost:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.europost:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.eze69:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.eze69:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.eze69:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.loretopro12:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.loretopro12:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.loretopro12:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.merle:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.merle:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.merle:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.nilo24:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.nilo24:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.nilo24:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.perigamer13:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.perigamer13:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.perigamer13:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.tomaslucio:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.tomaslucio:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.tomaslucio:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.V3RTK:hover > .miembros__img:only-child{
+    width: 25px;
+}
+.V3RTK:hover{
+    font-size: 21px;
+    padding-left: 40px;
+}
+.V3RTK:hover{
+    background: rgba(171, 101, 67, 0.534);
+}
+
+.ib:first-child{
+    margin-top: 47px;
+}
+.ib{
+    height: 300px;
+    background-color: rgba(248, 163, 121, 0.875);;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 10px;
+    
+}
+.identificacion{
+    width: 100%;
+    height: 25px;
+    background-color: rgba(251, 184, 151, 0.875);
+}
+.identificacion__img{
+    width:17px; height:18px; margin:3px; margin-left:5px; position:relative;
+}
+.identificacion__info1{
+    color: #222;
+    position: absolute;
+    margin: 3px;
+}
+.identificacion__info2{
+    color: #222;
+    position: relative;
+    float:right;
+    margin: 3px;
+
+}
+.informacion{
+    display: grid;
+    grid-template-columns: 280px 1fr 1fr;
+    grid-template-rows: 70px 40px 50px 40px 40px;
+}
+.nombre{
+    font-family: 'Oswald';
+    font-size: 32px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin: 7px;
+}
+.skin{
+    grid-row: 1/6;
+}
+.edad{
+    margin: 7px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.peso{
+    margin: 7px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.especialidades{
+    margin: 7px;
+    grid-row: 3/4;
+    grid-column: 2/4;
+}
+.participaciones{
+    margin: 7px;
+    grid-row: 4/5;
+    grid-column: 2/4;
+}
+.comida_favorita{
+    margin: 7px;
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+.bioma_favorito{
+    margin: 7px;
+    grid-row: 5/6;
+    grid-column: 3/4;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.miembros-responsive{
+    display: none;
+}
+@media screen and (max-width:1000px){
+    .containerM{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container__1{
+        flex-basis: 100%;
+    }
+    .container__2{
+        flex-basis: 100%;
+    }
+    .ib:first-child{
+        margin-top: 10px;
+    }
+    .subtituloM{
+        text-align: center;
+    }
+    .miembros{
+        display: none;
+    }
+    .miembros__img{
+        margin-right: 0;
+        margin: 5px;
+    }
+    .miembros-responsive{
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        margin-bottom: 8px;
+    }
+    .mb{
+        padding-left: 1px;
+    }
+    .informacion{
+        grid-template-columns: 3fr 2fr 2fr;
+    }
+    .ib{
+        height: 206px;
+    }
+    .ieze69{
+        height: 220px;
+    }
+    .iloretopro12{
+        height: 230px;
+    }
+    .imerle{
+        height: 220px;
+    }
+    .iperigamer13{
+        height: 220px;
+    }
+    .skimg{
+        width: 140px !important;
+        height: 140px !important;
+        margin: 10px 3px !important;
+    }
+    .informacion{
+        grid-template-rows: 40px 30px 30px 30px 30px;
+    }
+    label{
+        font-size: 13px;
+    }
+    .nombre{
+        font-size: 25px;
+    }
+    .edad{
+        font-size: 13px;
+    }
+    .peso{
+        font-size: 13px;
+    }
+    .especialidades{
+        font-size: 13px;
+    }
+    .participaciones{
+        font-size: 13px;
+    }
+    .comida_favorita{
+        font-size: 13px;
+    }
+    .bioma_favorito{
+        font-size: 13px;
+    }
+    .nombre{
+        padding-left: 4px;
+    }
+    .edad{
+        padding-left: 4px;
+    }
+    .especialidades{
+        padding-left: 4px;
+    }
+    .participaciones{
+        padding-left: 4px;
+    }   
+    .comida_favorita{
+        padding-left: 4px;
+    }
+    .identificacion__info1{
+        margin-top: 6px;
+    }
+    .identificacion__info1-responsive{
+        margin-top: 6px;
+    }
+    .identificacion__info2{
+        margin-top: 6px;
+    }
+
+}
+@media screen and (min-width:400px) and (max-width:1000px){
+    .informacion{
+        grid-template-columns: 2fr 3fr 3fr;
+    }
+}
+@media screen and (min-width:400px) and (max-width:600px){
+    .nombre{
+        padding-left: 4px;
+    }
+    .edad{
+        padding-left: 4px;
+    }
+    .especialidades{
+        padding-left: 4px;
+    }
+    .participaciones{
+        padding-left: 4px;
+    }   
+    .comida_favorita{
+        padding-left: 4px;
+    }
+}
+.identificacion__info1-responsive{
+    display: none;
+}
+@media screen and (max-width:355px){
+    .informacion{
+        grid-template-columns: 5fr 6fr 6fr;
+    }
+    .identificacion__info1{
+        display: none;
+    }
+    .identificacion__info1-responsive{
+        color: #222;
+        position: absolute;
+        margin: 3px;
+        display: inline-block;
+    }
+    .iloretopro12{
+        height: 240px;
+    }
+    .nombre{
+        padding-left: 4px;
+    }
+    .edad{
+        padding-left: 4px;
+    }
+    .especialidades{
+        padding-left: 4px;
+    }
+    .participaciones{
+        padding-left: 4px;
+    }   
+    .comida_favorita{
+        padding-left: 4px;
+    }
+    
+}
